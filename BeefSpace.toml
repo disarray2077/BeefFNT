@@ -1,0 +1,6 @@
+FileVersion = 1
+Projects = {BeefFNT = {Path = "."}, Xml-Beef = "*", "BeefFNT.Tests" = {Path = "Tests"}}
+Locked = ["Xml-Beef"]
+
+[Workspace]
+StartupProject = "BeefFNT"

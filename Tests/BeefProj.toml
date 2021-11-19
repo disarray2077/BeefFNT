@@ -1,0 +1,7 @@
+FileVersion = 1
+Dependencies = {corlib = "*", BeefFNT = "*"}
+
+[Project]
+Name = "BeefFNT.Tests"
+TargetType = "BeefTest"
+StartupObject = "BeefFNT.Tests.Program"
