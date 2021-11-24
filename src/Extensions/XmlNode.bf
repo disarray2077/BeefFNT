@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using Xml_Beef;
 
+using internal BeefFNT;
+
 namespace BeefFNT
 {
 	static
@@ -17,7 +19,7 @@ namespace BeefFNT
 			return XmlNodeEnumerator(self.ChildNodes, name, types);
 		}
 
-		struct XmlNodeEnumerator : IEnumerator<XmlNode>, IRefEnumerator<XmlNode*>, IResettable
+		internal struct XmlNodeEnumerator : IEnumerator<XmlNode>, IRefEnumerator<XmlNode*>, IResettable
 		{
 			private List<XmlNode> mList;
 			private int mIndex;
